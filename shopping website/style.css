@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+section {
+  margin: 10% 17%;
+  background: #FFFFFF;
+  padding:20px
+}
+
+.title {
+  border-bottom: rgba(182, 174, 174, 0.233) solid 2px ;
+  font-family: "roboto",Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: rgb(93, 185, 216);
+}
+
+.image {
+  width: 100px;
+  height: auto;
+}
+
+.product-name {
+  font-family: "roboto",Arial, Helvetica, sans-serif;
+}
+
+.part {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: rgba(182, 174, 174, 0.233) solid 2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right:50px;
+  padding-left:50px;
+}
+
+.fas {
+  margin: 0 20px
+}
+
+.btn {
+  margin: 0 20px;
+  cursor: pointer;
+}

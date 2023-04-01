@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>shopping cart</title>
+</head>
+<body>
+  <section>
+    <div class="title">
+      <p class="total">Shopping Bag Total : <span id="total">0</span> <span>$</span></p>
+    </div>
+    <!-- START PART1-->
+    <div class="part" id="part1">
+      <div class="icons">
+        <i class="fas fa-skull" onclick="remove()"></i>
+        <i class="fas fa-heart" id="heart" onclick="heart1()"></i>
+      </div>
+      <img class="image" src="./image/spadri white.png" alt="">
+      <span class="product-name"><strong>Sbedri</strong><br> White</span>
+      <div class="btns">
+        <span class="btn" onclick="inc()">+</span>
+        <span class="btn" id="product-qtn">0</span>
+        <span class="btn"  onclick="dec()">-</span>
+      </div>
+      <p class="product-price"><span id="product1price">0</span> <span>$</span></p>
+    </div>
+    <!-- END PART1-->
+    <!-- START PART2-->
+    <div class="part" id="part2">
+        <div class="icons">
+          <i class="fas fa-skull" onclick="remove2()"></i>
+          <i class="fas fa-heart" id="heart" onclick="heart2()"></i>
+        </div>
+        <img class="image" src="./image/sbeakers white.jpeg" alt="">
+        <span class="product-name"><strong>Sneakers</strong><br> White</span>
+        <div class="btns">
+          <span class="btn" onclick="inc2()">+</span>
+          <span class="btn" id="product-qtn2">0</span>
+          <span class="btn"  onclick="dec2()">-</span>
+        </div>
+        <p class="product-price"><span id="product1price2">0</span> <span>$</span></p>
+      </div>
+      <!-- END PART2-->
+      <!-- START PART3-->
+      <div class="part" id="part3">
+          <div class="icons">
+            <i class="fas fa-skull" onclick="remove3()"></i>
+            <i class="fas fa-heart" id="heart" onclick="heart3()"></i>
+          </div>
+          <img class="image" src="./image/scarf brown.jpeg" alt="">
+          <span class="product-name"><strong>Scraf</strong><br>Brown</span>
+          <div class="btns">
+            <span class="btn" onclick="inc3()">+</span>
+            <span class="btn" id="product-qtn3">0</span>
+            <span class="btn" onclick="dec3()">-</span>
+          </div>
+          <p class="product-price"><span id="product1price3">0</span> <span>$</span></p>
+        </div>
+        <!-- END PART3-->
+  </section>
+</body>
+<script src="./script.js"></script>
+</html>
